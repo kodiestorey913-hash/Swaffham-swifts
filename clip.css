@@ -1,0 +1,13 @@
+.clips-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+.clip
+{
+    width: 20vw;
+    height: 20vh;
+    margin-bottom: 10%;
+}

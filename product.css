@@ -1,0 +1,26 @@
+.shirts
+{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    place-items: center;
+}
+
+.shirt > img{
+    width: 10vw;
+    height: 20vh;
+    object-fit: cover;
+    place-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .shirts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .shirt > img {
+        width: 20vw;
+        height: 30vh;
+    }
+}
