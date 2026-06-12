@@ -34,7 +34,7 @@
 
 .imageplaceholderbox {
     position: relative;
-    width: 100%;
+    width: 50%;
     aspect-ratio: 1 / 1; 
     border: 1.5px solid #222;
     overflow: hidden;
